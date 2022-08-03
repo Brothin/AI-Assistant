@@ -158,9 +158,9 @@ public class MainActivity extends AppCompatActivity {
         if(msgs.indexOf("hi")!=-1 || msgs.indexOf("hello")!=-1)
             speak("Hello Sir ! How are you ?");
 
-        if(msgs.indexOf("I am fine")!=-1)
+        if(msgs.indexOf("i am fine")!=-1)
             speak("it's good to know that you are fine...How may I help you ?");
-        else if(msgs.indexOf("I am not fine")!=-1)
+        else if(msgs.indexOf("i am not fine")!=-1)
             speak("Please take care Sir");
 
         if(msgs.indexOf("what")!=-1) {
