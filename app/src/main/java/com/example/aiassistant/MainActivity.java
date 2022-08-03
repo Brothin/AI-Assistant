@@ -202,7 +202,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             if(msgs.indexOf("chrome")!=-1) {
-                Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"));
+                Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.chrome.com"));
                 startActivity(intent);
             }
 
@@ -227,7 +227,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             if(msgs.indexOf("telegram")!=-1) {
-                Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.telegram.com"));
+                Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://web.telegram.org/"));
                 startActivity(intent);
             }
 
